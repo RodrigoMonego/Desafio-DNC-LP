@@ -7,15 +7,27 @@
     background-color: #303030;
     color: white;
     height: 475px;
+    cursor: pointer;
+    
 }
 
-#headertitle{
+#header2{
+    display: none;
+    background-image: url(img/imgbg.svg);
+    background-color: #303030;
+    color: white;
+    height: 475px;
+    cursor: pointer;
+    
+}
+
+.headertitle{
     padding: 206px 0px 0px 62px;
     font-size: 60px;
     font-weight: 600;
 }
 
-#headertext{
+.headertext{
     padding: 20px 0px 0px 62px;
     font-size: 20px;
     font-weight: 500;
@@ -27,7 +39,7 @@
     height: 249px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+  
 }
 
 .datatitles{
